@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\search\Functional\SearchAdminThemeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/search/tests/src/Functional/SearchAdminThemeTest.php" tests="1" assertions="0" errors="2" warnings="0" failures="0" skipped="0" time="0.000000">
+    <testcase name="testSearchUsingAdminTheme" class="Drupal\Tests\search\Functional\SearchAdminThemeTest" classname="Drupal.Tests.search.Functional.SearchAdminThemeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/search/tests/src/Functional/SearchAdminThemeTest.php" line="65" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\search\Functional\SearchAdminThemeTest::testSearchUsingAdminTheme
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+      <error type="PHPUnit\Framework\RiskyTestError">Drupal\Tests\search\Functional\SearchAdminThemeTest::testSearchUsingAdminTheme
+This test did not perform any assertions
+
+/Users/esinergia/Sites/devdesktop/my-project/web/core/tests/Drupal/Tests/Listeners/DrupalListener.php:127
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestResult.php:446
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:376
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+  </testsuite>
+</testsuites>

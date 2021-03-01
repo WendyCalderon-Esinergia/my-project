@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\co_core\Unit\UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.009703">
+    <testcase name="testSetLength" class="Drupal\Tests\co_core\Unit\UnitTest" classname="Drupal.Tests.co_core.Unit.UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" line="28" assertions="2" time="0.007736"/>
+    <testcase name="testGetLength" class="Drupal\Tests\co_core\Unit\UnitTest" classname="Drupal.Tests.co_core.Unit.UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" line="38" assertions="1" time="0.001967"/>
+  </testsuite>
+</testsuites>

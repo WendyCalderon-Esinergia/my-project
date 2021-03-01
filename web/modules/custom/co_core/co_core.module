@@ -1,0 +1,93 @@
+<?php
+
+/**
+ * @file
+ * Contains comfandi_core.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\editor\Entity\Editor;
+
+/**
+ * Implements hook_help().
+ */
+function co_core_help($route_name, RouteMatchInterface $route_match)
+{
+  switch ($route_name) {
+      // Main module help for the bilingues_core module.
+    case 'help.page.co_core':
+      $output = '';
+      $output .= '<h3>' . t('Acerca de') . '</h3>';
+      $output .= '<p>' . t('Funcionalidades generales de comfandi') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function co_core_theme()
+{
+  return [
+    'comfandi_help_button_header_block' => [
+      'variables' => [
+        'content' => NULL
+      ],
+      'render element' => 'children',
+    ],
+    'comfandi_help_button_global_block' => [
+      'variables' => [
+        'content' => NULL
+      ],
+      'render element' => 'children',
+    ],
+    'comfandi_footer_branding_block' => [
+      'variables' => [
+        'content' => NULL
+      ],
+      'render element' => 'children',
+    ],
+    'comfandi_embed_map_node' => [
+      'variables' => [
+        'content' => NULL
+      ],
+      'render element' => 'children',
+    ]
+  ];
+}
+
+/**
+ * implements hook_form_alter
+ *
+ * @param array $form
+ * @param array $form_state
+ * @param string $form_id
+ */
+function co_core_form_alter(&$form, $form_state, $form_id)
+{
+  //var_dump($form_id);
+
+
+  switch ($form_id) {
+
+    case 'views_exposed_form':
+      // if($form['#id']=='views-exposed-form-videos-page-1'){}
+      $form['actions']['submit']['#attributes']['class'][] = 'button--primary';
+
+      break;
+  }
+}
+
+/**
+ * Implementation of hook_simpletest().
+ */
+function co_core_simpletest()
+{
+
+  $module_name = 'co_core'; // Change this to your module name.
+  $dir = drupal_get_path('module', $module_name) . '/tests';
+  $tests = file_scan_directory($dir, '\.test$');
+  return array_keys($tests);
+}

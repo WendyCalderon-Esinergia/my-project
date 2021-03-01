@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\jsonapi\Functional\NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" tests="11" assertions="0" errors="12" warnings="0" failures="0" skipped="0" time="0.000000">
+    <testcase name="testPatchPath" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="269" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testPatchPath
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+      <error type="PHPUnit\Framework\RiskyTestError">Drupal\Tests\jsonapi\Functional\NodeTest::testPatchPath
+This test did not perform any assertions
+
+/Users/esinergia/Sites/devdesktop/my-project/web/core/tests/Drupal/Tests/Listeners/DrupalListener.php:127
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestResult.php:446
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:376
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testGetIndividual" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="307" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testGetIndividual
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testPostNonExistingAuthor" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="434" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testPostNonExistingAuthor
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testCollectionFilterAccess" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="475" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testCollectionFilterAccess
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testCollection" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="1065" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testCollection
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testRelated" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="1291" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testRelated
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testRelationships" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="1310" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testRelationships
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testPostIndividual" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="1876" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testPostIndividual
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testPatchIndividual" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="2092" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testPatchIndividual
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testDeleteIndividual" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="2410" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testDeleteIndividual
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+    <testcase name="testRevisions" class="Drupal\Tests\jsonapi\Functional\NodeTest" classname="Drupal.Tests.jsonapi.Functional.NodeTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/core/modules/jsonapi/tests/src/Functional/NodeTest.php" line="2688" assertions="0" time="0.000000">
+      <error type="PHPUnit\Framework\Exception">Drupal\Tests\jsonapi\Functional\NodeTest::testRevisions
+PHPUnit\Framework\Exception: Failed loading /Applications/DevDesktop/php7_3_x64/ext/opcache.so:  dlopen(/Applications/DevDesktop/php7_3_x64/ext/opcache.so, 0x0009): symbol '_compiler_globals_id' not found, expected in flat namespace by '/Applications/DevDesktop/php7_3_x64/ext/opcache.so'
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:270
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php:187
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</error>
+    </testcase>
+  </testsuite>
+</testsuites>

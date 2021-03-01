@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\pathauto\Unit\VerboseMessengerTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/contrib/pathauto/tests/src/Unit/VerboseMessengerTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.041465">
+    <testcase name="testAddMessage" class="Drupal\Tests\pathauto\Unit\VerboseMessengerTest" classname="Drupal.Tests.pathauto.Unit.VerboseMessengerTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/contrib/pathauto/tests/src/Unit/VerboseMessengerTest.php" line="43" assertions="2" time="0.040578"/>
+    <testcase name="testDoNotAddMessageWhileBulkupdate" class="Drupal\Tests\pathauto\Unit\VerboseMessengerTest" classname="Drupal.Tests.pathauto.Unit.VerboseMessengerTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/contrib/pathauto/tests/src/Unit/VerboseMessengerTest.php" line="50" assertions="2" time="0.000887"/>
+  </testsuite>
+</testsuites>

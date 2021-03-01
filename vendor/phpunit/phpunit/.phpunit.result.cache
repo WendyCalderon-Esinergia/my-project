@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":292:{a:2:{s:7:"defects";a:2:{s:49:"Drupal\Tests\co_core\Unit\UnitTest::testSetLength";i:4;s:49:"Drupal\Tests\co_core\Unit\UnitTest::testGetLength";i:4;}s:5:"times";a:2:{s:49:"Drupal\Tests\co_core\Unit\UnitTest::testSetLength";d:0.007;s:49:"Drupal\Tests\co_core\Unit\UnitTest::testGetLength";d:0;}}}
