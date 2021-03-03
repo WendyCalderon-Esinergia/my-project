@@ -27,10 +27,13 @@ class Unit
     }
 }
 
+
+
+
+
+
+
+
 //https://salferrarello.com/setup-must-be-compatible-with-phpunitframeworktestcasesetup/
 //https://www.lullabot.com/articles/an-introduction-to-unit-testing-in-drupal
 //https://www.axelerant.com/resources/team-blog/drupal-8-writing-your-first-unit-test-with-phpunit
-
-
-//Calidad codigo
-//drupalcbf modules/custom/co_core/tests/src/Unit/UnitTest.php

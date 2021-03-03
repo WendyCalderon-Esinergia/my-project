@@ -29,13 +29,13 @@ class UnitTest extends TestCase {
    */
   protected function setUp(): void {
     $this->unit = new Unit();
+
   }
 
   /**
    * @covers Drupal\co_core\Unit::setLength
    */
   public function testSetLength() {
-    // $this->testing = 3;
     $this->assertEquals(0, $this->unit->getLength());
     $this->unit->setLength(9);
     $this->assertEquals(9, $this->unit->getLength());
