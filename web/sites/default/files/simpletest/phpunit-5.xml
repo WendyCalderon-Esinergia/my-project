@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Drupal\Tests\co_core\Unit\UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.010971">
-    <testcase name="testSetLength" class="Drupal\Tests\co_core\Unit\UnitTest" classname="Drupal.Tests.co_core.Unit.UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" line="37" assertions="2" time="0.008513"/>
-    <testcase name="testGetLength" class="Drupal\Tests\co_core\Unit\UnitTest" classname="Drupal.Tests.co_core.Unit.UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" line="46" assertions="1" time="0.002457"/>
+  <testsuite name="Drupal\Tests\co_core\Unit\UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.012993">
+    <testcase name="testSetLength" class="Drupal\Tests\co_core\Unit\UnitTest" classname="Drupal.Tests.co_core.Unit.UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" line="38" assertions="1" time="0.011021">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">Drupal\Tests\co_core\Unit\UnitTest::testSetLength
+Failed asserting that 'd' matches expected 0.
+
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/Constraint/Equality/IsEqual.php:96
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/Assert.php:2344
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/Assert.php:324
+/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php:39
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestResult.php:722
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/Framework/TestSuite.php:677
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:667
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:142
+/Users/esinergia/Sites/devdesktop/my-project/vendor/phpunit/phpunit/src/TextUI/Command.php:95</failure>
+    </testcase>
+    <testcase name="testGetLength" class="Drupal\Tests\co_core\Unit\UnitTest" classname="Drupal.Tests.co_core.Unit.UnitTest" file="/Users/esinergia/Sites/devdesktop/my-project/web/modules/custom/co_core/tests/src/Unit/UnitTest.php" line="47" assertions="1" time="0.001971"/>
   </testsuite>
 </testsuites>
